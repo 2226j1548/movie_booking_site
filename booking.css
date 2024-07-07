@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(./bg3.jpg);
+    background-size: cover;
+}
+
+label{
+    height: 50px;
+    width:200px;
+    margin-left: 550px;
+    margin-top: 30px;
+    color:white;
+    font-size: large;
+    border: 2px solid rgb(54, 173, 133);
+    background-color: rgba(54, 173, 133, 0.144);
+    padding: 14px;
+    border-radius: 20px;
+}
+select{
+    height: 50px;
+    width:200px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color:white;
+    font-size: large;
+    border: 2px solid  rgb(54, 173, 133);
+    background-color: rgba(54, 173, 133, 0.144);
+    border-radius: 20px;
+
+}
+option{
+    background-color: rgb(28, 98, 75);
+    color:rgb(119, 183, 135)
+}
+
+.movie{
+     border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  .container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+  }
+  .container2{
+    margin-left: 100px;
+    perspective: 1000px;
+    margin-bottom: 30px;
+  }
+  .container3{
+    margin-left: 100px;
+    perspective: 1000px;
+    margin-bottom: 30px;
+  }
+  .seat {
+    background-color: #444451;
+    height: 12px;
+    width: 15px;
+    margin: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .seat.selected {
+    background-color: #6feaf6;
+  }
+  
+  .seat.occupied {
+    background-color: #1c8560;
+  }
+  
+  
+  
+  .show {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .show li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .show li small {
+    margin-left: 2px;
+  }
+  
+  .div3{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 390px;
+  }
+  
+  .div2 {
+    background-color: #c4bfbf;
+    height: 50px;
+    width: 60%;
+    margin-left: 300px;
+    border-radius:40px 40px 0 0 ;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  }
+  .div4{
+    display: flex;
+    margin-top: -180px;
+    margin-left: 550px;
+  }
+  .div5{
+    display: flex;
+    margin-top: -180px;
+    margin-left: 700px;
+  }
+  .div6{
+    display: flex;
+    margin-top: -180px;
+    margin-top: 30px;
+    margin-left: 230px;
+  }
+  .div7{
+    display: flex;
+    margin-top: -180px;
+    margin-left: 440px;
+  }
+  .div8{
+    display: flex;
+    margin-top: -180px;
+    margin-left: 650px;
+  }
+ 
